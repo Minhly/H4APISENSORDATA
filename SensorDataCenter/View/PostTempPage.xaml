@@ -9,7 +9,7 @@
     <Grid
         ColumnDefinitions="*"
         ColumnSpacing="5"
-        RowDefinitions="70,70,80"
+        RowDefinitions="70,*,100, 15"
         BackgroundColor="#e1d5c9"
         RowSpacing="0">
         <Entry Text="{Binding TemperatureText}" Placeholder="Temperature" Grid.Row="0" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric"
@@ -22,6 +22,6 @@
                 Grid.Row="2"
                 TextColor="White"
                 Grid.Column="0"
-                Margin="8"/>
+                Margin="20"/>
     </Grid>
 </ContentPage>

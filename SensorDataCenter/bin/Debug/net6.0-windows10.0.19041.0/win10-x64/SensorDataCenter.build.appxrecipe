@@ -925,6 +925,9 @@
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudicon.scale-100.png">
+      <PackagePath>cloudicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -943,101 +946,8 @@
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon.scale-100.png">
       <PackagePath>tempicon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2.ico">
-      <PackagePath>tempicon2.ico</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2.scale-100.png">
       <PackagePath>tempicon2.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-100.png">
-      <PackagePath>tempicon2LargeTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-125.png">
-      <PackagePath>tempicon2LargeTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-150.png">
-      <PackagePath>tempicon2LargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-200.png">
-      <PackagePath>tempicon2LargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-400.png">
-      <PackagePath>tempicon2LargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-100.png">
-      <PackagePath>tempicon2Logo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-125.png">
-      <PackagePath>tempicon2Logo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-150.png">
-      <PackagePath>tempicon2Logo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-200.png">
-      <PackagePath>tempicon2Logo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-400.png">
-      <PackagePath>tempicon2Logo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-100.png">
-      <PackagePath>tempicon2MediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-125.png">
-      <PackagePath>tempicon2MediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-150.png">
-      <PackagePath>tempicon2MediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-200.png">
-      <PackagePath>tempicon2MediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-400.png">
-      <PackagePath>tempicon2MediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-100.png">
-      <PackagePath>tempicon2SmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-125.png">
-      <PackagePath>tempicon2SmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-150.png">
-      <PackagePath>tempicon2SmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-200.png">
-      <PackagePath>tempicon2SmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-400.png">
-      <PackagePath>tempicon2SmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-100.png">
-      <PackagePath>tempicon2StoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-125.png">
-      <PackagePath>tempicon2StoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-150.png">
-      <PackagePath>tempicon2StoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-200.png">
-      <PackagePath>tempicon2StoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-400.png">
-      <PackagePath>tempicon2StoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-100.png">
-      <PackagePath>tempicon2WideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-125.png">
-      <PackagePath>tempicon2WideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-150.png">
-      <PackagePath>tempicon2WideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-200.png">
-      <PackagePath>tempicon2WideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-400.png">
-      <PackagePath>tempicon2WideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\vangogh.scale-100.png">
       <PackagePath>vangogh.scale-100.png</PackagePath>
