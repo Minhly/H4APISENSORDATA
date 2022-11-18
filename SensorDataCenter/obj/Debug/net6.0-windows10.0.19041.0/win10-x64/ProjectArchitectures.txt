@@ -1,0 +1,1 @@
+C:\Users\HFGF\Desktop\SensorDataCenter\SensorDataCenter\SensorDataCenter.csproj;x64
