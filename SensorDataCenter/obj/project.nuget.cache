@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eSgGXt0qfMcVJUQahC1JESfAq8xrbq6wY8mzfpLxqScrco0z/9J42WV6VfhbXJ9tO2X+WMyw7GGIUy4FWTZ5xQ==",
+  "dgSpecHash": "1aicPggTzeR7+EnpAGRZwAY58mYxieVLCv4nWSnv5W33DNH5xyYy+5FDemT8FRUcMZ53m8J/a/Bt8Y2UqCPy+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HFGF\\Desktop\\SensorDataCenter\\SensorDataCenter\\SensorDataCenter.csproj",
+  "projectFilePath": "C:\\Users\\HFGF\\Documents\\GitHub\\H4APISENSORDATA\\SensorDataCenter\\SensorDataCenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HFGF\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

@@ -1,1 +1,1 @@
-C:\Users\HFGF\Desktop\SensorDataCenter\SensorDataCenter\SensorDataCenter.csproj;x64
+C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\SensorDataCenter.csproj;x64

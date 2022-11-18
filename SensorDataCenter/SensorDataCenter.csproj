@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cloudicon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="View\PostTempPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

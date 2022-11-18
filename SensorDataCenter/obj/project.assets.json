@@ -24573,11 +24573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HFGF\\Desktop\\SensorDataCenter\\SensorDataCenter\\SensorDataCenter.csproj",
+      "projectUniqueName": "C:\\Users\\HFGF\\Documents\\GitHub\\H4APISENSORDATA\\SensorDataCenter\\SensorDataCenter.csproj",
       "projectName": "SensorDataCenter",
-      "projectPath": "C:\\Users\\HFGF\\Desktop\\SensorDataCenter\\SensorDataCenter\\SensorDataCenter.csproj",
+      "projectPath": "C:\\Users\\HFGF\\Documents\\GitHub\\H4APISENSORDATA\\SensorDataCenter\\SensorDataCenter.csproj",
       "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HFGF\\Desktop\\SensorDataCenter\\SensorDataCenter\\obj\\",
+      "outputPath": "C:\\Users\\HFGF\\Documents\\GitHub\\H4APISENSORDATA\\SensorDataCenter\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

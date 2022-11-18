@@ -39,7 +39,7 @@ namespace SensorDataCenter.Services
             };
             try
             {
-                HttpResponseMessage response = await _client.GetAsync("http://sdedavi/get_latest_temperature_data.php?hostname=Temp_sensor_1");
+                HttpResponseMessage response = await _client.GetAsync("http://192.168.1.146/get_latest_temperature_data.php?hostname=Temp_sensor_1");
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
@@ -63,7 +63,7 @@ namespace SensorDataCenter.Services
             var json = JsonSerializer.Serialize(temperatureData);
             var data = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var url = "http://sdedavi/post_temperature_data.php";
+            var url = "http://192.168.1.146/post_temperature_data.php";
 
             var response = await _client.PostAsync(url, data);
 

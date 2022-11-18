@@ -7,39 +7,39 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SensorDataCenter
-build_property.ProjectDir = C:\Users\HFGF\Desktop\SensorDataCenter\SensorDataCenter\
+build_property.ProjectDir = C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\
 
-[C:/Users/HFGF/Desktop/SensorDataCenter/SensorDataCenter/App.xaml]
+[C:/Users/HFGF/Documents/GitHub/H4APISENSORDATA/SensorDataCenter/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SensorDataCenter.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/HFGF/Desktop/SensorDataCenter/SensorDataCenter/AppShell.xaml]
+[C:/Users/HFGF/Documents/GitHub/H4APISENSORDATA/SensorDataCenter/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SensorDataCenter.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/HFGF/Desktop/SensorDataCenter/SensorDataCenter/Resources/Styles/Colors.xaml]
+[C:/Users/HFGF/Documents/GitHub/H4APISENSORDATA/SensorDataCenter/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SensorDataCenter.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/HFGF/Desktop/SensorDataCenter/SensorDataCenter/Resources/Styles/Styles.xaml]
+[C:/Users/HFGF/Documents/GitHub/H4APISENSORDATA/SensorDataCenter/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SensorDataCenter.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/HFGF/Desktop/SensorDataCenter/SensorDataCenter/View/MainPage.xaml]
+[C:/Users/HFGF/Documents/GitHub/H4APISENSORDATA/SensorDataCenter/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SensorDataCenter.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[C:/Users/HFGF/Desktop/SensorDataCenter/SensorDataCenter/View/PostTempPage.xaml]
+[C:/Users/HFGF/Documents/GitHub/H4APISENSORDATA/SensorDataCenter/View/PostTempPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SensorDataCenter.View.PostTempPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\PostTempPage.xaml

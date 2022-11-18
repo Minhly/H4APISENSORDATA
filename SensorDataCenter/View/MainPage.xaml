@@ -6,32 +6,30 @@
              xmlns:viewmodel="clr-namespace:SensorDataCenter.ViewModel"
              x:DataType="viewmodel:TemperatureViewModel"
              Title="{Binding Title}">
-
     <Grid
         ColumnDefinitions="*"
         ColumnSpacing="5"
         RowDefinitions="*,Auto"
         BackgroundColor="#e1d5c9"
         RowSpacing="0">
-        <CollectionView ItemsSource="{Binding Temperatures}"
+                <CollectionView ItemsSource="{Binding Temperatures}"
                         SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:TemperatureData">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:TemperatureData">
                             <Grid Padding="0">
-                        <StackLayout
+                                <StackLayout
                                     Grid.Column="0"
                                     Padding="10">
-                                <Label HorizontalOptions="Center" Text="{Binding Id}" />
-                                <Label HorizontalOptions="Center" Text="{Binding Hostname}" />
-                                <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" />
-                                <Label HorizontalOptions="Center" Text="{Binding Temperature}" />
-                                <Label HorizontalOptions="Center" Text="{Binding Humidity}" />
-                        </StackLayout>
+                                    <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Temperature}" FontAttributes="Bold" FontSize="Large" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Humidity}" TextColor="#401C00" />
+                                </StackLayout>
                             </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-        <Button Text="Get Temperatures" 
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Get Temperatures" 
                 Command="{Binding GetTemperaturesCommand}"
                 Grid.Row="2"
                 BackgroundColor="#c19150"
@@ -41,13 +39,13 @@
                 Grid.RowSpan="2"
                 Margin="8"/>
 
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                <ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
                            HorizontalOptions="FillAndExpand"
                            VerticalOptions="CenterAndExpand"
                            Grid.RowSpan="2"
                            Grid.ColumnSpan="2"/>
-    </Grid>
+            </Grid>
 
 
 </ContentPage>

@@ -5,9 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:SensorDataCenter"
     xmlns:local2="clr-namespace:SensorDataCenter.View"
-    BackgroundColor="#1f2324"
+    BackgroundColor="#6F3107"
     TitleColor="White"
     TabBarForegroundColor ="White"
+    TabBarTitleColor ="#c19150"
+    TabBarUnselectedColor ="White"
     TabBarBackgroundColor = "#6F3107"
     Shell.FlyoutBehavior="Disabled">
 
@@ -15,7 +17,7 @@
         <Tab Title="Get Temperature" Icon="tempicon.png">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
-        <Tab Title="Post Temperature" Icon="tempicon2.png">
+        <Tab Title="Post Temperature" Icon="cloudicon.png">
             <ShellContent ContentTemplate="{DataTemplate local2:PostTempPage}"/>
         </Tab>
     </TabBar>
