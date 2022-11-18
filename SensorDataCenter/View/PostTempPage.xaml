@@ -9,12 +9,12 @@
     <Grid
         ColumnDefinitions="*"
         ColumnSpacing="5"
-        RowDefinitions="100,100,100"
+        RowDefinitions="70,70,80"
         BackgroundColor="#e1d5c9"
         RowSpacing="0">
-        <Entry Text="{Binding TemperatureText}" Placeholder="Temperature" Grid.Row="0"
+        <Entry Text="{Binding TemperatureText}" Placeholder="Temperature" Grid.Row="0" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric"
                 Grid.Column="0"/>
-        <Entry Text="{Binding HumidityText}" Placeholder="Humidity" Grid.Row="1"
+        <Entry Text="{Binding HumidityText}" Placeholder="Humidity" Grid.Row="1" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric"
                 Grid.Column="0"/>
         <Button Text="Post Temperature" 
                 BackgroundColor="#c19150"

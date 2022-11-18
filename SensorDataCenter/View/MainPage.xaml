@@ -9,7 +9,7 @@
     <Grid
         ColumnDefinitions="*"
         ColumnSpacing="5"
-        RowDefinitions="*,Auto"
+        RowDefinitions="*,80,100, 15"
         BackgroundColor="#e1d5c9"
         RowSpacing="0">
                 <CollectionView ItemsSource="{Binding Temperatures}"
@@ -35,9 +35,7 @@
                 BackgroundColor="#c19150"
                 Grid.Column="0"
                 TextColor="#fff"
-                Grid.ColumnSpan="2"
-                Grid.RowSpan="2"
-                Margin="8"/>
+                Margin="20"/>
 
                 <ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
