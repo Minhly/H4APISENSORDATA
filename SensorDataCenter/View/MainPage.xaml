@@ -16,14 +16,14 @@
                         SelectionMode="None">
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="model:TemperatureData">
-                            <Grid Padding="0">
+                            <Grid Padding="10">
                                 <StackLayout
                                     Grid.Column="0"
                                     Padding="10">
-                                    <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" TextColor="#401C00" />
-                                    <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" TextColor="#401C00" />
-                                    <Label HorizontalOptions="Center" Text="{Binding Temperature}" FontAttributes="Bold" FontSize="Large" TextColor="#401C00" />
-                                    <Label HorizontalOptions="Center" Text="{Binding Humidity}" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" FontSize="Medium" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" FontAttributes="Bold" FontSize="Medium" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Temperature}" FontAttributes="Bold" FontSize="Header" TextColor="#401C00" />
+                                    <Label HorizontalOptions="Center" Text="{Binding Humidity}" FontAttributes="Bold" FontSize="Medium" TextColor="#401C00" />
                                 </StackLayout>
                             </Grid>
                         </DataTemplate>

@@ -375,3 +375,17 @@ local.properties
 
 # Directory Build overrides for local setups
 Directory.Build.Override.props
+.vs/SensorDataCenter/v17/.suo
+SensorDataCenter/bin/Debug/net6.0-windows10.0.19041.0/win10-x64/AppX/SensorDataCenter.dll
+SensorDataCenter/bin/Debug/net6.0-windows10.0.19041.0/win10-x64/AppX/vs.appxrecipe
+SensorDataCenter/bin/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter.build.appxrecipe
+SensorDataCenter/bin/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter.dll
+SensorDataCenter/bin/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter.pdb
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/intermediatexaml/SensorDataCenter.dll
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/intermediatexaml/SensorDataCenter.pdb
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.i.cs
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter.dll
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter.pdb
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml
+SensorDataCenter/SensorDataCenter.csproj
+SensorDataCenter/SensorDataCenter.csproj.user
