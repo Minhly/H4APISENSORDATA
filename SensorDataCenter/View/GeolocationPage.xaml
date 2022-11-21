@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SensorDataCenter.View.GeolocationPage"
+             xmlns:model="clr-namespace:SensorDataCenter.Model"
+             xmlns:viewmodel="clr-namespace:SensorDataCenter.ViewModel"
+             x:DataType="viewmodel:GeolocationViewModel"
+             Title="{Binding Title}">
+    <Grid ColumnDefinitions="*"
+          ColumnSpacing="5"
+          RowDefinitions="*"
+          BackgroundColor="#e1d5c9"
+          RowSpacing="0">
+        <Button Text="{Binding GeolocationText}"
+                BackgroundColor="#c19150"
+                Command="{Binding GeolocationCommand}"
+                Grid.Row="0"
+                TextColor="White"
+                Grid.Column="0"
+                Margin="20"/>
+    </Grid>
+</ContentPage>

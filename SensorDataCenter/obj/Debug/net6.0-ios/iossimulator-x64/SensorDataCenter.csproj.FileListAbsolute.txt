@@ -479,7 +479,6 @@ C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\mauisplash.inputs
@@ -531,3 +530,4 @@ C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\SensorDataCenter.pdb
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\SensorDataCenter.genruntimeconfig.cache
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\ref\SensorDataCenter.dll
+C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\medium_temperature.png

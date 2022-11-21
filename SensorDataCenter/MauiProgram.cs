@@ -21,6 +21,8 @@ public static class MauiProgram
         builder.Services.AddTransient<TemperatureViewModel>();
         builder.Services.AddTransient<MainPage>();
         builder.Services.AddTransient<PostTempPage>();
+        builder.Services.AddTransient<GeolocationPage>();
+        builder.Services.AddTransient<GeolocationViewModel>();
 
         return builder.Build();
 	}

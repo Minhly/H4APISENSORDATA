@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Xamarin.GooglePlayServices.Maps": {
+              "target": "Package",
+              "version": "[118.1.0, )"
             }
           },
           "imports": [

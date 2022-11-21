@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-5NEDKI0</Machine>
+    <Machine>DESKTOP-IUMTPVS</Machine>
     <WindowsUser>HFGF</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C783C95F8131DCA64A83DD59027E8D2ACF36E3155F5B1597017CFFF996600A9E</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>ABE6A7BE3A13A832E66AE60557F0473421139734A259BE5C67795A80979FE583</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3D8A817A-56A2-4ADC-BB04-94FF3C7828F8_1.0.0.1_x64__ga7xs7wrf02ve</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3D8A817A-56A2-4ADC-BB04-94FF3C7828F8_ga7xs7wrf02ve!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3D8A817A-56A2-4ADC-BB04-94FF3C7828F8</RegisteredPackageID>
@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-18T08:55:53.594</Modified>
+      <Modified>2022-11-21T11:33:10.948</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-18T08:55:53.039</Modified>
+      <Modified>2022-11-21T11:23:31.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SensorDataCenter.runtimeconfig.json">
       <PackagePath>SensorDataCenter.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-18T08:55:52.797</Modified>
+      <Modified>2022-11-21T10:04:23.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SensorDataCenter.dll">
       <PackagePath>SensorDataCenter.dll</PackagePath>
-      <Modified>2022-11-18T08:55:51.011</Modified>
+      <Modified>2022-11-21T11:33:09.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SensorDataCenter.exe</PackagePath>
-      <Modified>2022-11-18T08:55:51.038</Modified>
+      <Modified>2022-11-21T11:33:09.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1063,7 +1063,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SensorDataCenter.deps.json">
       <PackagePath>SensorDataCenter.deps.json</PackagePath>
-      <Modified>2022-11-18T08:55:53.348</Modified>
+      <Modified>2022-11-21T11:33:10.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1079,315 +1079,199 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2022-10-31T07:31:53.819</Modified>
+      <Modified>2022-11-18T09:20:40.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.958</Modified>
+      <Modified>2022-11-18T09:20:47.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.960</Modified>
+      <Modified>2022-11-18T09:20:47.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.960</Modified>
+      <Modified>2022-11-18T09:20:47.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.961</Modified>
+      <Modified>2022-11-18T09:20:47.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.962</Modified>
+      <Modified>2022-11-18T09:20:47.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2022-11-18T08:52:37.912</Modified>
+      <Modified>2022-11-18T09:20:46.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2022-11-18T08:52:37.915</Modified>
+      <Modified>2022-11-18T09:20:47.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-11-18T08:52:37.916</Modified>
+      <Modified>2022-11-18T10:30:22.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.917</Modified>
+      <Modified>2022-11-18T10:30:22.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.918</Modified>
+      <Modified>2022-11-18T10:30:22.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.919</Modified>
+      <Modified>2022-11-18T10:30:22.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.920</Modified>
+      <Modified>2022-11-18T10:30:22.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.920</Modified>
+      <Modified>2022-11-18T10:30:22.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.921</Modified>
+      <Modified>2022-11-18T10:30:22.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.921</Modified>
+      <Modified>2022-11-18T10:30:22.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.922</Modified>
+      <Modified>2022-11-18T10:30:22.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.922</Modified>
+      <Modified>2022-11-18T10:30:22.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.923</Modified>
+      <Modified>2022-11-18T10:30:22.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.923</Modified>
+      <Modified>2022-11-18T10:30:22.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.924</Modified>
+      <Modified>2022-11-18T10:30:22.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.924</Modified>
+      <Modified>2022-11-18T10:30:22.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.924</Modified>
+      <Modified>2022-11-18T10:30:22.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.925</Modified>
+      <Modified>2022-11-18T10:30:22.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.925</Modified>
+      <Modified>2022-11-18T10:30:22.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.926</Modified>
+      <Modified>2022-11-18T10:30:22.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.926</Modified>
+      <Modified>2022-11-18T10:30:22.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.927</Modified>
+      <Modified>2022-11-18T10:30:22.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.927</Modified>
+      <Modified>2022-11-18T10:30:22.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.928</Modified>
+      <Modified>2022-11-18T10:30:22.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.928</Modified>
+      <Modified>2022-11-18T10:30:22.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.929</Modified>
+      <Modified>2022-11-18T10:30:22.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.929</Modified>
+      <Modified>2022-11-18T10:30:22.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.930</Modified>
+      <Modified>2022-11-18T10:30:22.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.930</Modified>
+      <Modified>2022-11-18T10:30:22.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.931</Modified>
+      <Modified>2022-11-18T10:30:22.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.932</Modified>
+      <Modified>2022-11-18T10:30:22.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.932</Modified>
+      <Modified>2022-11-18T10:30:22.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.933</Modified>
+      <Modified>2022-11-18T10:30:22.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudicon.scale-100.png">
+      <PackagePath>cloudicon.scale-100.png</PackagePath>
+      <Modified>2022-11-18T09:20:40.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.934</Modified>
+      <Modified>2022-11-18T10:30:22.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.935</Modified>
+      <Modified>2022-11-18T10:30:22.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.936</Modified>
+      <Modified>2022-11-18T10:30:22.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.937</Modified>
+      <Modified>2022-11-18T10:30:22.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.938</Modified>
+      <Modified>2022-11-18T10:30:22.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\medium_temperature.scale-100.png">
+      <PackagePath>medium_temperature.scale-100.png</PackagePath>
+      <Modified>2022-11-18T10:11:43.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon.scale-100.png">
       <PackagePath>tempicon.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.939</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2.ico">
-      <PackagePath>tempicon2.ico</PackagePath>
-      <Modified>2022-11-18T08:52:37.939</Modified>
+      <Modified>2022-11-18T09:20:40.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2.scale-100.png">
       <PackagePath>tempicon2.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.940</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-100.png">
-      <PackagePath>tempicon2LargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.941</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-125.png">
-      <PackagePath>tempicon2LargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.942</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-150.png">
-      <PackagePath>tempicon2LargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.942</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-200.png">
-      <PackagePath>tempicon2LargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.943</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2LargeTile.scale-400.png">
-      <PackagePath>tempicon2LargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.943</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-100.png">
-      <PackagePath>tempicon2Logo.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.944</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-125.png">
-      <PackagePath>tempicon2Logo.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.944</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-150.png">
-      <PackagePath>tempicon2Logo.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.945</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-200.png">
-      <PackagePath>tempicon2Logo.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.945</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2Logo.scale-400.png">
-      <PackagePath>tempicon2Logo.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.946</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-100.png">
-      <PackagePath>tempicon2MediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.946</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-125.png">
-      <PackagePath>tempicon2MediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.947</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-150.png">
-      <PackagePath>tempicon2MediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.947</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-200.png">
-      <PackagePath>tempicon2MediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.948</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2MediumTile.scale-400.png">
-      <PackagePath>tempicon2MediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.948</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-100.png">
-      <PackagePath>tempicon2SmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.949</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-125.png">
-      <PackagePath>tempicon2SmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.950</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-150.png">
-      <PackagePath>tempicon2SmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.950</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-200.png">
-      <PackagePath>tempicon2SmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.951</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2SmallTile.scale-400.png">
-      <PackagePath>tempicon2SmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.952</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-100.png">
-      <PackagePath>tempicon2StoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.952</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-125.png">
-      <PackagePath>tempicon2StoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.953</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-150.png">
-      <PackagePath>tempicon2StoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.954</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-200.png">
-      <PackagePath>tempicon2StoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.954</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2StoreLogo.scale-400.png">
-      <PackagePath>tempicon2StoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.955</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-100.png">
-      <PackagePath>tempicon2WideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.955</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-125.png">
-      <PackagePath>tempicon2WideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.956</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-150.png">
-      <PackagePath>tempicon2WideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.956</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-200.png">
-      <PackagePath>tempicon2WideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.957</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tempicon2WideTile.scale-400.png">
-      <PackagePath>tempicon2WideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.957</Modified>
+      <Modified>2022-11-18T09:20:40.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\vangogh.scale-100.png">
       <PackagePath>vangogh.scale-100.png</PackagePath>
-      <Modified>2022-11-18T08:52:37.958</Modified>
+      <Modified>2022-11-18T09:20:40.629</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
