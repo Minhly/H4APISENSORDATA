@@ -7,7 +7,7 @@
     xmlns:local2="clr-namespace:SensorDataCenter.View"
     BackgroundColor="#6F3107"
     TitleColor="White"
-    TabBarForegroundColor ="White"
+    TabBarForegroundColor ="#c19150"
     TabBarTitleColor ="#c19150"
     TabBarUnselectedColor ="White"
     TabBarBackgroundColor = "#6F3107"
@@ -20,7 +20,7 @@
         <Tab Title="Post Temperature" Icon="cloudicon.png">
             <ShellContent ContentTemplate="{DataTemplate local2:PostTempPage}"/>
         </Tab>
-        <Tab Title="Geolocation" Icon="cloudicon.png">
+        <Tab Title="Geolocation" Icon="geolocation.png">
             <ShellContent ContentTemplate="{DataTemplate local2:GeolocationPage}"/>
         </Tab>
     </TabBar>
