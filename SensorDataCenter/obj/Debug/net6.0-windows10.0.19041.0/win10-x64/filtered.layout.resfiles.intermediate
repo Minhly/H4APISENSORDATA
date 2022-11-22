@@ -32,6 +32,7 @@ appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
 cloudicon.scale-100.png
+cold_temperature.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -41,6 +42,7 @@ medium_temperature.scale-100.png
 tempicon.scale-100.png
 tempicon2.scale-100.png
 vangogh.scale-100.png
+warm_temperature.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

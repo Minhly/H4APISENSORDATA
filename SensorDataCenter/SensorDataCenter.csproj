@@ -50,7 +50,9 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\cloudicon.png" />
+	  <None Remove="Resources\Images\cold_temperature.png" />
 	  <None Remove="Resources\Images\medium_temperature.png" />
+	  <None Remove="Resources\Images\warm_temperature.png" />
 	</ItemGroup>
 
 	<ItemGroup>

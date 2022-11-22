@@ -727,3 +727,5 @@ C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudicon.scale-100.png
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\medium_temperature.scale-100.png
+C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cold_temperature.scale-100.png
+C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\warm_temperature.scale-100.png

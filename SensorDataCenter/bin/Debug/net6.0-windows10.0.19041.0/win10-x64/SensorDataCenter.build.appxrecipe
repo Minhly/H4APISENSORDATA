@@ -928,6 +928,9 @@
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudicon.scale-100.png">
       <PackagePath>cloudicon.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cold_temperature.scale-100.png">
+      <PackagePath>cold_temperature.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -954,6 +957,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\vangogh.scale-100.png">
       <PackagePath>vangogh.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\warm_temperature.scale-100.png">
+      <PackagePath>warm_temperature.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

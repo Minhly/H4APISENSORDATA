@@ -4,9 +4,9 @@ namespace SensorDataCenter.View;
 
 public partial class PostSoundPage : ContentPage
 {
-	public PostSoundPage()
+	public PostSoundPage(PostSoundPage postSoundPage)
 	{
 		InitializeComponent();
+		BindingContext = postSoundPage;
 	}
-	//mRecorder = new MediaRecorder();
 }

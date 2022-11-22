@@ -12,8 +12,9 @@ namespace SensorDataCenter.ViewModel
     {
         private CancellationTokenSource _cancelTokenSource;
         public Command GeolocationCommand { get; }
-       
-        //GeolocationService geolocationService;
+        public Command PostGeolocationCommand { get; }
+
+        GeolocationService geolocationService;
 
         string geolocationText = "Press to get geolocation";
         
@@ -33,7 +34,22 @@ namespace SensorDataCenter.ViewModel
             Title = "Geolocation";
             //this.geolocationService = geolocationService;
             GeolocationCommand = new Command(async () => await GetCurrentLocationAsync());
+            PostGeolocationCommand = new Command(async () => await PostCurrentLocationAsync());
         }
+
+        async Task PostCurrentLocationAsync()
+        {
+            try
+            {
+                var postCall = await geolocationService.PostGeolocation( 10, 10);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error: {ex.Message}");
+                await Application.Current.MainPage.DisplayAlert("Error!", ex.Message, "Ok");
+            }
+        }
+
         public async Task GetCurrentLocationAsync()
         {
             if (IsBusy)
@@ -48,7 +64,7 @@ namespace SensorDataCenter.ViewModel
                 Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
                 if (location != null)
-                    GeolocationText = "Latitude: " + location.Latitude.ToString() + " Longitude: " + location.Longitude.ToString() + " Altitude: " + location.Altitude;
+                    GeolocationText = "Latitude: " + location.Latitude.ToString() + "\nLongitude: " + location.Longitude.ToString() + "\nAltitude: " + location.Altitude;
             }
             catch (Exception ex)
             {
