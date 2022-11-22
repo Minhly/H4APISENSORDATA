@@ -18,7 +18,7 @@
                     <Grid Padding="10">
                         <StackLayout Grid.Column="0"
                                              Padding="10">
-                            <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" FontSize="40" TextColor="#401C00" Margin="0,30,0,0" />
+                            <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" FontSize="40" TextColor="#401C00" Margin="0,40,0,0" />
                             <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" FontAttributes="None" FontSize="Medium" TextColor="#401C00" />
                             <Image Source="medium_temperature.png" WidthRequest="150" Margin="25"></Image>
                             <Label HorizontalOptions="Center" Text="{Binding Temperature}" FontAttributes="Bold" FontSize="60" TextColor="#401C00" />

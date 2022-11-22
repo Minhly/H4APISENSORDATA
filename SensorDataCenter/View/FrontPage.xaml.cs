@@ -1,13 +1,12 @@
+using SensorDataCenter.ViewModel;
+
 namespace SensorDataCenter.View;
 
 public partial class FrontPage : ContentPage
 {
-	public FrontPage()
+	public FrontPage(FrontPageViewModel frontPageViewModel)
 	{
 		InitializeComponent();
-	}
-
-    async void OnButtonClicked(object sender, EventArgs args)
-    {
+        BindingContext = frontPageViewModel;
     }
 }

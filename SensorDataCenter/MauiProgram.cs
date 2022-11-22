@@ -27,6 +27,7 @@ public static class MauiProgram
         builder.Services.AddTransient<GeolocationViewModel>();
         builder.Services.AddTransient<GeolocationService>();
         builder.Services.AddTransient<FrontPage>();
+        builder.Services.AddTransient<FrontPageViewModel>();
 
         return builder.Build();
 	}

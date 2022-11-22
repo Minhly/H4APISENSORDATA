@@ -10,7 +10,7 @@
     TabBarForegroundColor ="#c19150"
     TabBarTitleColor ="#c19150"
     TabBarUnselectedColor ="White"
-    TabBarBackgroundColor = "#6F3107"
+    TabBarBackgroundColor = "#803909"
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar x:Name="Tabs">

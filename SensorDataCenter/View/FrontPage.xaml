@@ -4,30 +4,44 @@
              x:Class="SensorDataCenter.View.FrontPage"
              Title="FrontPage">
 
-    <Grid ColumnDefinitions="*"
-          ColumnSpacing="5"
-          RowDefinitions="200,*,*,*"
-          BackgroundColor="#e1d5c9"
-          RowSpacing="0">
-        <Image Source="welcome.jpg" Grid.Row="0" Aspect="Fill"></Image>
+    <Grid ColumnDefinitions="*,*"
+          RowDefinitions="270,*,*"
+          BackgroundColor="#e1d5c9">
+            <Image Source="welcomechoco.jpg" Grid.Row="0" Aspect="Fill" Grid.ColumnSpan="2"></Image>
         <Button Text="Get Temperature" 
-                        Command="{Binding}"
-                Clicked="OnButtonClicked"
+                Command="{Binding}"
                 Grid.Row="1"
+                CornerRadius="0"
+                BorderColor="#fff"
+                BorderWidth="1"
                 BackgroundColor="#c19150"
-                TextColor="#fff"
-                Margin="10,10,10,0"/>
+                TextColor="#fff"/>
         <Button Text="Post Temperatures" 
                 Command="{Binding}"
-                Grid.Row="2"
-                BackgroundColor="#ad8042"
-                TextColor="#fff"
-                Margin="10,10,10,0"/>
+                Grid.Row="1"
+                CornerRadius="0"
+                BorderColor="#fff"
+                BorderWidth="1"
+                Grid.Column="1"
+                BackgroundColor="#c19150"
+                TextColor="#fff"/>
         <Button Text="Geolocation" 
                 Command="{Binding}"
-                Grid.Row="3"
-                BackgroundColor="#8c6732"
-                TextColor="#fff"
-                Margin="10"/>
+                Grid.Row="2"
+                CornerRadius="0"
+                BorderColor="#fff"
+                BorderWidth="1"
+                Grid.Column="0"
+                BackgroundColor="#c19150"
+                TextColor="#fff"/>
+        <Button Text="TBD" 
+                Command="{Binding}"
+                Grid.Row="2"
+                BorderColor="#fff"
+                BorderWidth="1"
+                CornerRadius="0"
+                Grid.Column="1"
+                BackgroundColor="#c19150"
+                TextColor="#fff"/>
     </Grid>
 </ContentPage>
