@@ -14,6 +14,9 @@
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar x:Name="Tabs">
+        <Tab Title="Get Temperature" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local2:FrontPage}"/>
+        </Tab>
         <Tab Title="Get Temperature" Icon="tempicon.png">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
