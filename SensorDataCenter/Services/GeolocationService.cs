@@ -17,7 +17,7 @@ namespace SensorDataCenter.Services
         {
             _client = new HttpClient();
         }
-        public async Task<string> PostGeolocation(double longitude_data, double latitude_data)
+        public async Task<string> PostGeolocation(float longitude_data, float latitude_data)
         {
             var hostname = "Phone";
 
@@ -26,7 +26,7 @@ namespace SensorDataCenter.Services
             var json = JsonSerializer.Serialize(geolocationData);
             var data = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var url = "http://sdedavi/post_geolocation_data.php";
+            var url = "http://192.168.1.146/post_geolocation_data.php";
 
             var response = await _client.PostAsync(url, data);
 
