@@ -55,6 +55,7 @@
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\medium_temperature.png" />
 	  <None Remove="Resources\Images\warm_temperature.png" />
+	  <None Remove="Resources\Images\welcome.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
