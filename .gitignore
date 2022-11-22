@@ -389,3 +389,8 @@ SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter
 SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml
 SensorDataCenter/SensorDataCenter.csproj
 SensorDataCenter/SensorDataCenter.csproj.user
+*.xml
+*.pdb
+*.dll
+SensorDataCenter/obj/Debug/net6.0-windows10.0.19041.0/win10-x64/SensorDataCenter.csproj.FileListAbsolute.txt
+*.cache
