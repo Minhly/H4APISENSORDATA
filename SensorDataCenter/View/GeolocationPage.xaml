@@ -11,6 +11,7 @@
           RowDefinitions="*,auto"
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
+        <Map x:Name="map"/>
         <Label Text="{Binding GeolocationText}"
                 Grid.ColumnSpan="2"/>
         <Button Text="Get"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YV3pKPumKSsuJAP7Ft6osUTfawSmeUEq57sgY2uxVMX5alMRdERQ9/8J0ZUVqHedRvSkR3JIZTM/Vfxet4O6Ww==",
+  "dgSpecHash": "rppHTeX740neMPX6plDSNJUKAuasfMnqetr+9qfOGakKjFJe2fG81DIBGkdpiWvvKKm6w4JZkS85J4KtCcwEkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HFGF\\Documents\\GitHub\\H4APISENSORDATA\\SensorDataCenter\\SensorDataCenter.csproj",
   "expectedPackageFiles": [
@@ -14,10 +14,12 @@
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.3.1\\microsoft.graphics.win2d.1.0.3.1.nupkg.sha512",
+    "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.maui.controls.maps\\7.0.49\\microsoft.maui.controls.maps.7.0.49.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.541\\microsoft.maui.dependencies.6.0.541.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.maui.extensions\\6.0.541\\microsoft.maui.extensions.6.0.541.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.maui.graphics\\6.0.501\\microsoft.maui.graphics.6.0.501.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.501\\microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512",
+    "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.maui.maps\\7.0.49\\microsoft.maui.maps.7.0.49.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
     "C:\\Users\\HFGF\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
