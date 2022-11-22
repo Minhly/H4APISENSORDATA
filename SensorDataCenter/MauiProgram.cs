@@ -25,6 +25,7 @@ public static class MauiProgram
         builder.Services.AddTransient<SoundViewModel>();
         builder.Services.AddTransient<GeolocationPage>();
         builder.Services.AddTransient<GeolocationViewModel>();
+        builder.Services.AddTransient<GeolocationService>();
         builder.Services.AddTransient<FrontPage>();
 
         return builder.Build();

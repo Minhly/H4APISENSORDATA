@@ -17,7 +17,7 @@ namespace SensorDataCenter.Services
         {
             _client = new HttpClient();
         }
-        public async Task<string> PostGeolocation(float longitude_data, float latitude_data)
+        public async Task<string> PostGeolocation(double longitude_data, double latitude_data)
         {
             var hostname = "Phone";
 

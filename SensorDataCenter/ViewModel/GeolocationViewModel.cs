@@ -16,8 +16,10 @@ namespace SensorDataCenter.ViewModel
 
         GeolocationService geolocationService;
 
-        string geolocationText = "Press to get geolocation";
-        
+        double geolocationLongitude;
+        double geolocationLatitude;
+        string geolocationText;
+
         public string GeolocationText
         {
             get => geolocationText;
@@ -29,10 +31,33 @@ namespace SensorDataCenter.ViewModel
                 OnPropertyChanged();
             }
         }
-        public GeolocationViewModel(/*GeolocationService geolocationService*/)
+        public double GeolocationLongitude
+        {
+            get => geolocationLongitude;
+            set
+            {
+                if (geolocationLongitude == value)
+                    return;
+                geolocationLongitude = value;
+                OnPropertyChanged();
+            }
+        }
+        public double GeolocationLatitude
+        {
+            get => geolocationLatitude;
+            set
+            {
+                if (geolocationLatitude == value)
+                    return;
+                geolocationLatitude = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public GeolocationViewModel(GeolocationService geoService)
         {
             Title = "Geolocation";
-            //this.geolocationService = geolocationService;
+            this.geolocationService = geoService;
             GeolocationCommand = new Command(async () => await GetCurrentLocationAsync());
             PostGeolocationCommand = new Command(async () => await PostCurrentLocationAsync());
         }
@@ -41,7 +66,7 @@ namespace SensorDataCenter.ViewModel
         {
             try
             {
-                var postCall = await geolocationService.PostGeolocation( 10, 10);
+                var postCall = await geolocationService.PostGeolocation(geolocationLongitude, geolocationLatitude);
             }
             catch (Exception ex)
             {
@@ -64,7 +89,9 @@ namespace SensorDataCenter.ViewModel
                 Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
                 if (location != null)
-                    GeolocationText = "Latitude: " + location.Latitude.ToString() + "\nLongitude: " + location.Longitude.ToString() + "\nAltitude: " + location.Altitude;
+                    GeolocationText = "Latitude: " + location.Latitude.ToString() + "\nLongitude: " + location.Longitude.ToString();
+                    GeolocationLatitude = location.Latitude;
+                    GeolocationLongitude = location.Longitude;
             }
             catch (Exception ex)
             {

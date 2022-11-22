@@ -10,10 +10,10 @@ namespace SensorDataCenter.Model
     public class PostGeolocation
     {
         [JsonPropertyName("longitude")]
-        public float longitude { get; set; }
+        public double longitude { get; set; }
 
         [JsonPropertyName("latitude")]
-        public float latitude { get; set; }
+        public double latitude { get; set; }
 
         [JsonPropertyName("name")]
         public string name { get; set; }

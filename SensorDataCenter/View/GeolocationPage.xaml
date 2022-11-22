@@ -6,17 +6,26 @@
              xmlns:viewmodel="clr-namespace:SensorDataCenter.ViewModel"
              x:DataType="viewmodel:GeolocationViewModel"
              Title="{Binding Title}">
-    <Grid ColumnDefinitions="*"
+    <Grid ColumnDefinitions="*,*"
           ColumnSpacing="5"
-          RowDefinitions="*"
+          RowDefinitions="*,auto"
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
-        <Button Text="{Binding GeolocationText}"
+        <Label Text="{Binding GeolocationText}"
+                Grid.ColumnSpan="2"/>
+        <Button Text="Get"
                 BackgroundColor="#c19150"
                 Command="{Binding GeolocationCommand}"
-                Grid.Row="0"
+                Grid.Row="1"
                 TextColor="White"
                 Grid.Column="0"
+                Margin="20"/>
+        <Button Text="Post"
+                BackgroundColor="#c19150"
+                Command="{Binding PostGeolocationCommand}"
+                Grid.Row="1"
+                TextColor="White"
+                Grid.Column="1"
                 Margin="20"/>
     </Grid>
 </ContentPage>
