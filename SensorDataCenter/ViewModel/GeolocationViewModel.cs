@@ -16,8 +16,8 @@ namespace SensorDataCenter.ViewModel
 
         GeolocationService geolocationService;
 
-        double geolocationLongitude;
-        double geolocationLatitude;
+        float geolocationLongitude;
+        float geolocationLatitude;
         string geolocationText;
 
         public string GeolocationText
@@ -31,7 +31,7 @@ namespace SensorDataCenter.ViewModel
                 OnPropertyChanged();
             }
         }
-        public double GeolocationLongitude
+        public float GeolocationLongitude
         {
             get => geolocationLongitude;
             set
@@ -42,7 +42,7 @@ namespace SensorDataCenter.ViewModel
                 OnPropertyChanged();
             }
         }
-        public double GeolocationLatitude
+        public float GeolocationLatitude
         {
             get => geolocationLatitude;
             set
@@ -90,8 +90,8 @@ namespace SensorDataCenter.ViewModel
 
                 if (location != null)
                     GeolocationText = "Latitude: " + location.Latitude.ToString() + "\nLongitude: " + location.Longitude.ToString();
-                    GeolocationLatitude = location.Latitude;
-                    GeolocationLongitude = location.Longitude;
+                    GeolocationLatitude = (float)location.Latitude;
+                    GeolocationLongitude = (float)location.Longitude;
             }
             catch (Exception ex)
             {
