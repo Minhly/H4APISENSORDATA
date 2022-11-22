@@ -510,3 +510,4 @@ C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\SensorDataCenter.pdb
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\SensorDataCenter.genruntimeconfig.cache
 C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\SensorDataCenter.dll
+C:\Users\HFGF\Documents\GitHub\H4APISENSORDATA\SensorDataCenter\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\medium_temperature.png

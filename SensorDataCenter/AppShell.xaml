@@ -20,6 +20,9 @@
         <Tab Title="Post Temperature" Icon="cloudicon.png">
             <ShellContent ContentTemplate="{DataTemplate local2:PostTempPage}"/>
         </Tab>
+        <Tab Title="Geolocation" Icon="cloudicon.png">
+            <ShellContent ContentTemplate="{DataTemplate local2:GeolocationPage}"/>
+        </Tab>
     </TabBar>
 
 </Shell>

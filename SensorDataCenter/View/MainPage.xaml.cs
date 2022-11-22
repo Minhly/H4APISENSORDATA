@@ -1,9 +1,4 @@
-﻿using static SensorDataCenter.MainPage;
-using System.Text.Json;
-using System.Diagnostics;
-using System.Collections.ObjectModel;
-using SensorDataCenter.Model;
-using SensorDataCenter.ViewModel;
+﻿using SensorDataCenter.ViewModel;
 
 namespace SensorDataCenter;
 
