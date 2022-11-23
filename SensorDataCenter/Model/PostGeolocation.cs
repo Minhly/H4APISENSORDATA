@@ -15,8 +15,8 @@ namespace SensorDataCenter.Model
         [JsonPropertyName("latitude_data")]
         public float latitude { get; set; }
 
-        [JsonPropertyName("hostname")]
-        public string name { get; set; }
+        [JsonPropertyName("location_data")]
+        public string location { get; set; }
 
     }
 }

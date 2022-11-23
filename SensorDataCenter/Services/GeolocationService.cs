@@ -18,9 +18,8 @@ namespace SensorDataCenter.Services
         {
             _client = new HttpClient();
         }
-        public async Task<string> PostGeolocation(float longitude_data, float latitude_data)
+        public async Task<string> PostGeolocation(float longitude_data, float latitude_data, string location)
         {
-            var hostname = "Phone";
 
             if (longitude_data == 0 || latitude_data == 0)
             {
@@ -28,7 +27,7 @@ namespace SensorDataCenter.Services
             }
             else
             {
-                var geolocationData = new PostGeolocation() { longitude = longitude_data, latitude = latitude_data, name = hostname };
+                var geolocationData = new PostGeolocation() { longitude = longitude_data, latitude = latitude_data, location = location };
 
                 var json = JsonSerializer.Serialize(geolocationData);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
