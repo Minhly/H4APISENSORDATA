@@ -56,6 +56,8 @@
 	  <None Remove="Resources\Images\geolocation.png" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\medium_temperature.png" />
+	  <None Remove="Resources\Images\sunicon.png" />
+	  <None Remove="Resources\Images\sunicon2.png" />
 	  <None Remove="Resources\Images\warm_temperature.png" />
 	  <None Remove="Resources\Images\welcome.jpg" />
 	  <None Remove="Resources\Images\welcomechoc.jpg" />

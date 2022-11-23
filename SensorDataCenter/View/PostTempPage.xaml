@@ -13,11 +13,11 @@
         BackgroundColor="#e1d5c9"
         RowSpacing="0">
         <Label TextColor="#6F3107" FontSize="30" Margin="10,5,0,0" FontAttributes="Bold" Text="Enter Temperature and Humidity:"></Label>
-        <Entry Text="{Binding TemperatureText}" MaxLength="2" Placeholder="Temperature..." Grid.Row="1" Margin="10" HorizontalTextAlignment="Center" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric" FontSize="Large" BackgroundColor="AliceBlue"
+        <Entry Text="{Binding TemperatureText}"  MaxLength="2" Placeholder="Temperature..." Grid.Row="1" Margin="10" HorizontalTextAlignment="Center" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric" FontSize="Large" BackgroundColor="AliceBlue"
                 Grid.Column="0"/>
         <Entry Text="{Binding HumidityText}" MaxLength="2" Placeholder="Humidity..." Grid.Row="2" HorizontalTextAlignment="Center" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric" FontSize="Large" BackgroundColor="AliceBlue"
                 Grid.Column="0"/>
-        <Image Source="cold_temperature.png" Grid.Row="3" WidthRequest="180" Margin="25"></Image>
+        <Image Source="medium_temperature.png" Grid.Row="3" WidthRequest="180" Margin="25"></Image>
         <Button Text="Post Temperature" 
                 BackgroundColor="#c19150"
                 Command="{Binding PostTemperaturesCommand}"

@@ -11,6 +11,7 @@
           RowDefinitions="*,40,100,15"
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
+
         <CollectionView ItemsSource="{Binding Temperatures}"
                                 SelectionMode="None">
             <CollectionView.ItemTemplate>
@@ -18,11 +19,13 @@
                     <Grid Padding="10">
                         <StackLayout Grid.Column="0"
                                              Padding="10">
-                            <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" FontSize="40" TextColor="#401C00" Margin="0,40,0,0" />
-                            <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" FontAttributes="None" FontSize="Medium" TextColor="#401C00" />
-                            <Image Source="medium_temperature.png" WidthRequest="150" Margin="25"></Image>
-                            <Label HorizontalOptions="Center" Text="{Binding Temperature}" FontAttributes="Bold" FontSize="60" TextColor="#401C00" />
-                            <Label HorizontalOptions="Center" Text="{Binding Humidity}" FontAttributes="None" FontSize="Medium" TextColor="#401C00" />
+                            <Label HorizontalOptions="Center" Text="{Binding Location}" FontAttributes="Bold" FontSize="40" TextColor="#6F3107" Margin="0,40,0,0" />
+                            <Label HorizontalOptions="Center" Text="{Binding Date_Uploaded}" FontAttributes="None" FontSize="Small" TextColor="#6F3107" />
+                            <Image Source="sunicon2.png" WidthRequest="150" Margin="20">
+                            </Image>
+                            <Label HorizontalOptions="Center" Text="{Binding Hostname}" FontAttributes="Bold" FontSize="20" TextColor="#6F3107" />
+                            <Label HorizontalOptions="Center" Text="{Binding Temperature}" FontAttributes="Bold" FontSize="60" TextColor="#6F3107" />
+                            <Label HorizontalOptions="Center" Text="{Binding Humidity}" FontAttributes="None" FontSize="Medium" TextColor="#6F3107" />
                         </StackLayout>
                     </Grid>
                 </DataTemplate>
