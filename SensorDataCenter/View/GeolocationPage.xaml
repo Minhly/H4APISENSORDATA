@@ -19,19 +19,19 @@
                  WidthRequest="50"
                  HeightRequest="50" Margin="30"/>
         <Label TextColor="#803909" FontAttributes="Bold"
-            Grid.Row="3" VerticalOptions="Center" FontSize="30" Padding="45, 1, 0, 1">ϕ</Label>
+            Grid.Row="3" VerticalOptions="Center" FontSize="30" Padding="45, 0, 0, 0">ϕ</Label>
         <Label Text="{Binding GeolocationText1}"
                Grid.Row="3" Grid.ColumnSpan="2"
                FontAttributes="Bold" FontSize="30" 
-               TextColor="White" Margin="30" HorizontalOptions="Center"/>
+               TextColor="White" Margin="22,33,0,0" HorizontalOptions="Center"/>
         <Ellipse HorizontalOptions="Start" Fill="White" Grid.Row="4"
                  WidthRequest="50"
                  HeightRequest="50" Margin="30"/>
         <Label TextColor="#803909" FontAttributes="Bold"
-            Grid.Row="4" VerticalOptions="Center" FontSize="30" Padding="45, 1, 0, 1">λ</Label>
+            Grid.Row="4" VerticalOptions="Center" FontSize="30" Padding="47, 0, 0, 1">λ</Label>
         <Label Text="{Binding GeolocationText2}"
                Grid.Row="4" Grid.ColumnSpan="2"
-               HorizontalOptions="Center" Margin="30"
+               HorizontalOptions="Center" Margin="47,28,0,0"
                FontAttributes="Bold" FontSize="30" TextColor="White"/>
         <Button Text="Get"
                 BackgroundColor="#c19150"
@@ -47,6 +47,6 @@
                 TextColor="White"
                 Grid.Column="1"
                 Margin="2, 20, 20, 20"/>
-        
+
     </Grid>
 </ContentPage>
