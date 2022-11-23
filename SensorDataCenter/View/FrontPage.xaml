@@ -2,14 +2,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SensorDataCenter.View.FrontPage"
-             Title="FrontPage">
+             xmlns:viewmodel="clr-namespace:SensorDataCenter.ViewModel"
+             x:DataType="viewmodel:FrontPageViewModel"
+             Title="Home">
 
     <Grid ColumnDefinitions="*,*"
-          RowDefinitions="270,*,*"
+          RowDefinitions="350,*,*"
           BackgroundColor="#e1d5c9">
             <Image Source="welcomechoco.jpg" Grid.Row="0" Aspect="Fill" Grid.ColumnSpan="2"></Image>
         <Button Text="Get Temperature" 
-                Command="{Binding}"
+                Command="{Binding GetTemperatureButton}"
                 Grid.Row="1"
                 CornerRadius="0"
                 BorderColor="#fff"
@@ -17,7 +19,7 @@
                 BackgroundColor="#c19150"
                 TextColor="#fff"/>
         <Button Text="Post Temperatures" 
-                Command="{Binding}"
+                Command="{Binding PostTemperatureButton}"
                 Grid.Row="1"
                 CornerRadius="0"
                 BorderColor="#fff"
@@ -26,7 +28,7 @@
                 BackgroundColor="#c19150"
                 TextColor="#fff"/>
         <Button Text="Geolocation" 
-                Command="{Binding}"
+                Command="{Binding GeoLocationButton}"
                 Grid.Row="2"
                 CornerRadius="0"
                 BorderColor="#fff"
@@ -35,7 +37,7 @@
                 BackgroundColor="#c19150"
                 TextColor="#fff"/>
         <Button Text="TBD" 
-                Command="{Binding}"
+                Command="{Binding GeoLocationButton}"
                 Grid.Row="2"
                 BorderColor="#fff"
                 BorderWidth="1"

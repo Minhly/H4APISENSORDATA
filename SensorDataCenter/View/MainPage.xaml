@@ -5,7 +5,7 @@
              xmlns:model="clr-namespace:SensorDataCenter.Model"
              xmlns:viewmodel="clr-namespace:SensorDataCenter.ViewModel"
              x:DataType="viewmodel:TemperatureViewModel"
-             Title="{Binding Title}">
+             Title="Get Temperature Data">
     <Grid ColumnDefinitions="*"
           ColumnSpacing="5"
           RowDefinitions="*,40,100,15"
