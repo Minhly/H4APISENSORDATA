@@ -15,7 +15,7 @@ namespace SensorDataCenter.ViewModel
 
         string hostname;
         string ipAddress;
-        int geoId;
+        string geoId;
 
         public string HostnameEntry
         {
@@ -41,7 +41,7 @@ namespace SensorDataCenter.ViewModel
             }
         }
 
-        public int GeoIdEntry
+        public string GeoIdEntry
         {
             get => geoId;
             set
@@ -63,9 +63,10 @@ namespace SensorDataCenter.ViewModel
         {
             try
             {
-/*                var postCall = await temperatureService.PostTemperature(TemperatureText, HumidityText);
-                TemperatureText = "";
-                HumidityText = "";*/
+                var postCall = await createSensorService.CreateSensor(HostnameEntry, IpAddressEntry, GeoIdEntry);
+                HostnameEntry = "";
+                IpAddressEntry = "";
+                GeoIdEntry = "";
             }
             catch (Exception ex)
             {

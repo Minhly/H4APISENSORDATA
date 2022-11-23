@@ -24,6 +24,9 @@ namespace SensorDataCenter.Model
 
         [JsonPropertyName("hostname")]
         public string Hostname { get; set; }
+
+        [JsonPropertyName("location")]
+        public string Location { get; set; }
     }
 
 }

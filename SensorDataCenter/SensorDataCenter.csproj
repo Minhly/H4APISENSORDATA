@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\addnew.png" />
 	  <None Remove="Resources\Images\cloudicon.png" />
 	  <None Remove="Resources\Images\cold_temperature.png" />
 	  <None Remove="Resources\Images\dalle.png" />
@@ -65,6 +66,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="View\CreateSensor.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\FrontPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -19,6 +19,6 @@ namespace SensorDataCenter.Model
         public string IpAddress { get; set; }
 
         [JsonPropertyName("geo_fk_id")]
-        public int GeoId { get; set; }
+        public string GeoId { get; set; }
     }
 }

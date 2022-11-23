@@ -23,8 +23,11 @@
         <Tab Title="Post T°" Icon="cloudicon.png">
             <ShellContent ContentTemplate="{DataTemplate local2:PostTempPage}"/>
         </Tab>
-        <Tab Title="GeoLocation" Icon="geolocation.png">
+        <Tab Title="Geo" Icon="geolocation.png">
             <ShellContent ContentTemplate="{DataTemplate local2:GeolocationPage}"/>
+        </Tab>
+        <Tab Title="+ Sensor" Icon="addnew.png">
+            <ShellContent ContentTemplate="{DataTemplate local2:CreateSensor}"/>
         </Tab>
     </TabBar>
 

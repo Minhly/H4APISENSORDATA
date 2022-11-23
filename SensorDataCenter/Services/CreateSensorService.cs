@@ -21,14 +21,14 @@ namespace SensorDataCenter.Services
             _client = new HttpClient();
         }
 
-        public async Task<string> PostTemperature(string hostname, string ipAddress, int geoId)
+        public async Task<string> CreateSensor(string hostname, string ipAddress, string geoId)
         {
-            var temperatureData = new Sensor() { Hostname = hostname, IpAddress = ipAddress, GeoId = geoId };
+            var sensor = new Sensor() { Hostname = hostname, IpAddress = ipAddress, GeoId = geoId };
 
-            var json = JsonSerializer.Serialize(temperatureData);
+            var json = JsonSerializer.Serialize(sensor);
             var data = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var url = "http://192.168.1.146/post_temperature_data.php";
+            var url = "http://192.168.1.146/post_sensor.php";
 
             var response = await _client.PostAsync(url, data);
 

@@ -46,7 +46,7 @@ namespace SensorDataCenter.Services
                 {
                     string content = await response.Content.ReadAsStringAsync();
                     TemperatureData jsonString = JsonSerializer.Deserialize<TemperatureData>(content);
-                    Temperatures.Add(new TemperatureData { Temperature = jsonString.Temperature + "°C", Id = "Sensor_Id: " + jsonString.Id, Humidity = "Humidity: " + jsonString.Humidity + "%", Hostname = jsonString.Hostname, Date_Uploaded = jsonString.Date_Uploaded});
+                    Temperatures.Add(new TemperatureData { Temperature = jsonString.Temperature + "°C", Id = "Sensor_Id: " + jsonString.Id, Humidity = "Humidity: " + jsonString.Humidity + "%", Hostname = jsonString.Hostname, Date_Uploaded = jsonString.Date_Uploaded, Location = jsonString.Location });
                 }
             }
             catch (Exception ex)
