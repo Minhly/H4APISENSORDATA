@@ -8,27 +8,45 @@
              Title="{Binding Title}">
     <Grid ColumnDefinitions="*,*"
           ColumnSpacing="5"
-          RowDefinitions="*,auto,auto,100,15"
+          RowDefinitions="*,auto,auto,auto,100,100,15"
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
+        <BoxView Color="#803909" 
+                 Grid.ColumnSpan="2"
+                 Grid.Row="2" Grid.RowSpan="5"></BoxView>
         <Image Source="dalle.png" Grid.ColumnSpan="2" Margin="30"></Image>
-        <Label Text="{Binding GeolocationText}"
-               Grid.Row="2" Grid.ColumnSpan="2"
-               HorizontalOptions="Center"
-               FontAttributes="Bold" FontSize="30"/>
+        <Ellipse HorizontalOptions="Start" Fill="White" Grid.Row="3"
+                 WidthRequest="50"
+                 HeightRequest="50" Margin="30"/>
+        <Label TextColor="#803909" FontAttributes="Bold"
+            Grid.Row="3" VerticalOptions="Center" FontSize="30" Padding="45, 1, 0, 1">ϕ</Label>
+        <Label Text="{Binding GeolocationText1}"
+               Grid.Row="3" Grid.ColumnSpan="2"
+               FontAttributes="Bold" FontSize="30" 
+               TextColor="White" Margin="30" HorizontalOptions="Center"/>
+        <Ellipse HorizontalOptions="Start" Fill="White" Grid.Row="4"
+                 WidthRequest="50"
+                 HeightRequest="50" Margin="30"/>
+        <Label TextColor="#803909" FontAttributes="Bold"
+            Grid.Row="4" VerticalOptions="Center" FontSize="30" Padding="45, 1, 0, 1">λ</Label>
+        <Label Text="{Binding GeolocationText2}"
+               Grid.Row="4" Grid.ColumnSpan="2"
+               HorizontalOptions="Center" Margin="30"
+               FontAttributes="Bold" FontSize="30" TextColor="White"/>
         <Button Text="Get"
                 BackgroundColor="#c19150"
                 Command="{Binding GeolocationCommand}"
-                Grid.Row="3"
+                Grid.Row="5"
                 TextColor="White"
                 Grid.Column="0"
                 Margin="20, 20, 2, 20"/>
         <Button Text="Post"
                 BackgroundColor="#c19150"
                 Command="{Binding PostGeolocationCommand}"
-                Grid.Row="3"
+                Grid.Row="5"
                 TextColor="White"
                 Grid.Column="1"
                 Margin="2, 20, 20, 20"/>
+        
     </Grid>
 </ContentPage>

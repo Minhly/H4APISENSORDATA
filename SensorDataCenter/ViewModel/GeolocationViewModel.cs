@@ -18,16 +18,28 @@ namespace SensorDataCenter.ViewModel
 
         float geolocationLongitude;
         float geolocationLatitude;
-        string geolocationText;
+        string geolocationText1;
+        string geolocationText2;
 
-        public string GeolocationText
+        public string GeolocationText1
         {
-            get => geolocationText;
+            get => geolocationText1;
             set
             {
-                if (geolocationText == value)
+                if (geolocationText1 == value)
                     return;
-                geolocationText = value;
+                geolocationText1 = value;
+                OnPropertyChanged();
+            }
+        }
+        public string GeolocationText2
+        {
+            get => geolocationText2;
+            set
+            {
+                if (geolocationText2 == value)
+                    return;
+                geolocationText2 = value;
                 OnPropertyChanged();
             }
         }
@@ -89,7 +101,8 @@ namespace SensorDataCenter.ViewModel
                 Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
                 if (location != null)
-                    GeolocationText = "Latitude: " + Math.Round(location.Latitude, 4) + "\nLongitude: " + Math.Round(location.Longitude,4);
+                    GeolocationText1 = "Latitude: " + Math.Round(location.Latitude, 4);
+                    GeolocationText2 = "Longitude: " + Math.Round(location.Longitude,4);
                     GeolocationLatitude = (float)location.Latitude;
                     GeolocationLongitude = (float)location.Longitude;
             }
