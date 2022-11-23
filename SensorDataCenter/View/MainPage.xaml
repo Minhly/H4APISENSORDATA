@@ -28,19 +28,19 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Button Text="Get Temperatures" 
-                        Command="{Binding GetTemperaturesCommand}"
-                        Grid.Row="2"
-                        BackgroundColor="#c19150"
-                        Grid.Column="0"
-                        TextColor="#fff"
-                        Margin="20"/>
+        <Button Text="Get Temperature" 
+                Command="{Binding GetTemperaturesCommand}"
+                Grid.Row="2"
+                BackgroundColor="#c19150"
+                Grid.Column="0"
+                TextColor="#fff"
+                Margin="20"/>
 
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
-                                   IsRunning="{Binding IsBusy}"
-                                   HorizontalOptions="FillAndExpand"
-                                   VerticalOptions="CenterAndExpand"
-                                   Grid.RowSpan="2"
-                                   Grid.ColumnSpan="2"/>
+        <ActivityIndicator  IsVisible="{Binding IsBusy}"
+                            IsRunning="{Binding IsBusy}"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="CenterAndExpand"
+                            Grid.RowSpan="2"
+                            Grid.ColumnSpan="2"/>
     </Grid>
 </ContentPage>
