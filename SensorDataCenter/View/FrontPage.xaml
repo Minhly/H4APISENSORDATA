@@ -42,7 +42,7 @@
                 Margin="5,5,5,10"
                 BackgroundColor="#e1d5c9"
                 TextColor="#6F3107"/>
-        <Button Text="TBD" 
+        <Button Text="Create Sensor" 
                 Command="{Binding GeoLocationButton}"
                 Grid.Row="2"
                 BorderColor="#fff"

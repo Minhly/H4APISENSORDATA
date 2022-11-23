@@ -28,6 +28,9 @@ public static class MauiProgram
         builder.Services.AddTransient<GeolocationService>();
         builder.Services.AddTransient<FrontPage>();
         builder.Services.AddTransient<FrontPageViewModel>();
+        builder.Services.AddTransient<CreateSensor>();
+        builder.Services.AddTransient<CreateSensorService>();
+        builder.Services.AddTransient<CreateSensorViewModel>();
 
         return builder.Build();
 	}

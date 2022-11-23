@@ -46,7 +46,7 @@ namespace SensorDataCenter.Services
                 {
                     string content = await response.Content.ReadAsStringAsync();
                     TemperatureData jsonString = JsonSerializer.Deserialize<TemperatureData>(content);
-                    Temperatures.Add(new TemperatureData { Temperature = jsonString.Temperature + "°C", Id = "Sensor_Id: " + jsonString.Id, Humidity = "Humidity: " + jsonString.Humidity + "%", Hostname = jsonString.Hostname, Date_Uploaded = jsonString.Date_Uploaded, Location = jsonString.Location });
+                    Temperatures.Add(new TemperatureData { Temperature = jsonString.Temperature + "°C", Id = "Sensor_Id: " + jsonString.Id, Humidity = "Humidity: " + jsonString.Humidity + "%", Hostname = jsonString.Hostname, Date_Uploaded = jsonString.Date_Uploaded});
                 }
             }
             catch (Exception ex)
@@ -70,7 +70,14 @@ namespace SensorDataCenter.Services
             var response = await _client.PostAsync(url, data);
 
             string result = response.Content.ReadAsStringAsync().Result;
-            await Application.Current.MainPage.DisplayAlert("Sent", "201", "ok");
+            if(response.StatusCode == HttpStatusCode.Created)
+            {
+                await Application.Current.MainPage.DisplayAlert("Sent", "201", "Yay!");
+            }
+            else
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", Convert.ToString(response.StatusCode), "Try again");
+            }
             return "201";
         }
     }
