@@ -89,7 +89,7 @@ namespace SensorDataCenter.ViewModel
                 Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
                 if (location != null)
-                    GeolocationText = "Latitude: " + location.Latitude.ToString() + "\nLongitude: " + location.Longitude.ToString();
+                    GeolocationText = "Latitude: " + Math.Round(location.Latitude, 4) + "\nLongitude: " + Math.Round(location.Longitude,4);
                     GeolocationLatitude = (float)location.Latitude;
                     GeolocationLongitude = (float)location.Longitude;
             }
