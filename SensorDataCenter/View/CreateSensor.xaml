@@ -18,7 +18,7 @@
                     Grid.Column="0"/>
             <Entry Text="{Binding IpAddressEntry}" MaxLength="15" Placeholder="Ip Address..." Grid.Row="2" HorizontalTextAlignment="Center" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" FontSize="Large" BackgroundColor="AliceBlue"
                     Grid.Column="0"/>
-            <Entry Text="{Binding GeoIdEntry}" MaxLength="3" Placeholder="Geolocation..." Grid.Row="3" HorizontalTextAlignment="Center" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric" FontSize="Large" BackgroundColor="AliceBlue"
+            <Entry Text="{Binding GeoIdEntry}" MaxLength="3" Placeholder="Geolocation Id..." Grid.Row="3" HorizontalTextAlignment="Center" Margin="10" TextColor="#6F3107" PlaceholderColor="#6F3107" Keyboard="Numeric" FontSize="Large" BackgroundColor="AliceBlue"
                     Grid.Column="0"/>
             <Image Source="createicon.png" Grid.Row="4"></Image>
             <Button Text="Create new Sensor" 

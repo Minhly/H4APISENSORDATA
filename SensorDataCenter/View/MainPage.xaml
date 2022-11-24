@@ -12,7 +12,7 @@
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
 
-        <Entry Text="{Binding TempSensorId}" Placeholder="Type sensor id here" PlaceholderColor="#6F3107" Margin="60, 0, 60, 0" FontAttributes="Bold" Keyboard="Numeric" BackgroundColor="White"
+        <Entry Text="{Binding TempSensorId}" Placeholder="Type sensor id here" TextColor="#6F3107" PlaceholderColor="#6F3107" Margin="60, 0, 60, 0" FontAttributes="Bold" Keyboard="Numeric" BackgroundColor="White"
                 Grid.Row="1" FontSize="20" HorizontalTextAlignment="Center"/>
         <CollectionView ItemsSource="{Binding Temperatures}"
                                 SelectionMode="None">
