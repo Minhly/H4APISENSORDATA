@@ -8,11 +8,11 @@
              Title="Get Temperature Data">
     <Grid ColumnDefinitions="*"
           ColumnSpacing="5"
-          RowDefinitions="*,40,100,15"
+          RowDefinitions="*,50,100,15"
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
 
-        <Entry Text="{Binding TempSensorId}" Placeholder="Type in sensor id" PlaceholderColor="#6F3107" FontAttributes="Bold"
+        <Entry Text="{Binding TempSensorId}" Placeholder="Type sensor id here" PlaceholderColor="#6F3107" Margin="60, 0, 60, 0" FontAttributes="Bold" Keyboard="Numeric" BackgroundColor="White"
                 Grid.Row="1" FontSize="20" HorizontalTextAlignment="Center"/>
         <CollectionView ItemsSource="{Binding Temperatures}"
                                 SelectionMode="None">

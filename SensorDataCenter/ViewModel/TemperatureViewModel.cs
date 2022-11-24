@@ -87,6 +87,7 @@ namespace SensorDataCenter.ViewModel
                 {
                     Temperatures.Add(temp);
                 }
+                TempSensorId = "";
             }
             catch (Exception ex)
             {
@@ -106,6 +107,7 @@ namespace SensorDataCenter.ViewModel
                 var postCall = await temperatureService.PostTemperature(TemperatureText, HumidityText);
                 TemperatureText = "";
                 HumidityText = "";
+                TempSensorId = "";
             }
             catch (Exception ex)
             {

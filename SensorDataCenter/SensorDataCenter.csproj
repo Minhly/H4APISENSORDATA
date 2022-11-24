@@ -52,6 +52,7 @@
 	  <None Remove="Resources\Images\addnew.png" />
 	  <None Remove="Resources\Images\cloudicon.png" />
 	  <None Remove="Resources\Images\cold_temperature.png" />
+	  <None Remove="Resources\Images\createicon.png" />
 	  <None Remove="Resources\Images\dalle.png" />
 	  <None Remove="Resources\Images\earth.png" />
 	  <None Remove="Resources\Images\geolocation.png" />
