@@ -12,6 +12,8 @@
           BackgroundColor="#e1d5c9"
           RowSpacing="0">
 
+        <Entry Text="{Binding TempSensorId}" Placeholder="Type in sensor id" PlaceholderColor="#6F3107" FontAttributes="Bold"
+                Grid.Row="1" FontSize="20" HorizontalTextAlignment="Center"/>
         <CollectionView ItemsSource="{Binding Temperatures}"
                                 SelectionMode="None">
             <CollectionView.ItemTemplate>

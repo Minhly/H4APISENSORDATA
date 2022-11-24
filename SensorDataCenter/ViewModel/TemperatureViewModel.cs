@@ -22,6 +22,19 @@ namespace SensorDataCenter.ViewModel
 
         string temperatureText;
         string humidityText;
+        string tempSensorId;
+
+        public string TempSensorId 
+        {
+            get => tempSensorId;
+            set
+            {
+                if (tempSensorId == value)
+                    return;
+                tempSensorId = value;
+                OnPropertyChanged();
+            }
+        }
 
         public string TemperatureText
         {
@@ -64,7 +77,8 @@ namespace SensorDataCenter.ViewModel
             {
                 IsBusy = true;
 
-                var temperatures = await temperatureService.TemperatureListPage();
+                int testforint = Convert.ToInt32(TempSensorId);
+                var temperatures = await temperatureService.TemperatureListPage(testforint);
 
                 if (Temperatures.Count != 0)
                     Temperatures.Clear();

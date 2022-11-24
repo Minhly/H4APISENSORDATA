@@ -24,7 +24,7 @@ namespace SensorDataCenter.Services
             Temperatures = new List<TemperatureData>();
         }
 
-        public async Task<List<TemperatureData>> TemperatureListPage()
+        public async Task<List<TemperatureData>> TemperatureListPage(int sensorId)
         {
             if(Temperatures.Count > 0)
                 Temperatures.Clear();
@@ -41,7 +41,7 @@ namespace SensorDataCenter.Services
             };
             try
             {
-                HttpResponseMessage response = await _client.GetAsync("http://192.168.1.146/get_latest_temperature_data.php?hostname=Temp_sensor_1");
+                HttpResponseMessage response = await _client.GetAsync("http://192.168.1.146/get_latest_temperature_data.php?hostname=Temp_sensor_" + sensorId);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
