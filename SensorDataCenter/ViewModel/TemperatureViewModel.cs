@@ -104,7 +104,7 @@ namespace SensorDataCenter.ViewModel
         {
             try
             {
-                var postCall = await temperatureService.PostTemperature(TemperatureText, HumidityText);
+                var postCall = await temperatureService.PostTemperature(TemperatureText, HumidityText, TempSensorId);
                 TemperatureText = "";
                 HumidityText = "";
                 TempSensorId = "";

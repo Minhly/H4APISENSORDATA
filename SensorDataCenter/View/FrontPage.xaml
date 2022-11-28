@@ -43,7 +43,7 @@
                 BackgroundColor="#e1d5c9"
                 TextColor="#6F3107"/>
         <Button Text="Create Sensor" 
-                Command="{Binding GeoLocationButton}"
+                Command="{Binding CreateSensorButton}"
                 Grid.Row="2"
                 BorderColor="#fff"
                 BorderWidth="1"

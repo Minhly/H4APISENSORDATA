@@ -12,7 +12,6 @@
     TabBarUnselectedColor ="White"
     TabBarBackgroundColor = "#734432"
     Shell.FlyoutBehavior="Disabled">
-
     <TabBar x:Name="Tabs">
         <Tab Title="Home" Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate local2:FrontPage}"/>
@@ -20,14 +19,14 @@
         <Tab Title="Get T°" Icon="tempicon.png">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
+        <Tab Title="Create" Icon="addnew.png">
+            <ShellContent ContentTemplate="{DataTemplate local2:CreateSensor}"/>
+        </Tab>
         <Tab Title="Post T°" Icon="cloudicon.png">
             <ShellContent ContentTemplate="{DataTemplate local2:PostTempPage}"/>
         </Tab>
         <Tab Title="Geo" Icon="geolocation.png">
             <ShellContent ContentTemplate="{DataTemplate local2:GeolocationPage}"/>
-        </Tab>
-        <Tab Title="+ Sensor" Icon="addnew.png">
-            <ShellContent ContentTemplate="{DataTemplate local2:CreateSensor}"/>
         </Tab>
     </TabBar>
 

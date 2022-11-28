@@ -15,7 +15,7 @@
                  Grid.ColumnSpan="2"
                  Grid.Row="2" Grid.RowSpan="5"></BoxView>
         <Image Source="dalle.png" Grid.ColumnSpan="2" Margin="30"></Image>
-        <Entry Text="{Binding GeolocationLocation}" Placeholder="Type in location. E.g. 'Mu8/6'" TextColor="White" FontAttributes="Bold"
+        <Entry Text="{Binding GeolocationLocation}" Placeholder="Type in location. E.g. 'Mu8/6'" TextColor="#6F3107" FontAttributes="Bold" BackgroundColor="AliceBlue"
                 Grid.ColumnSpan="2" Grid.Row="2" FontSize="20" HorizontalTextAlignment="Center"/>
         <Ellipse HorizontalOptions="Start" Fill="White" Grid.Row="3"
                  WidthRequest="50"

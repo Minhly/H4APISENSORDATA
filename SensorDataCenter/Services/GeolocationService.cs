@@ -21,7 +21,7 @@ namespace SensorDataCenter.Services
         public async Task<string> PostGeolocation(float longitude_data, float latitude_data, string location)
         {
 
-            if (longitude_data == 0 || latitude_data == 0)
+            if (longitude_data == 0 || latitude_data == 0 || location == null )
             {
                 await Application.Current.MainPage.DisplayAlert("Error", "BadRequest", "Try again");
             }

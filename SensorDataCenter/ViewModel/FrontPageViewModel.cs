@@ -13,11 +13,13 @@ namespace SensorDataCenter.ViewModel
         public Command GetTemperatureButton { get; }
         public Command PostTemperatureButton { get; }
         public Command GeoLocationButton { get; }
+        public Command CreateSensorButton { get; }
         public FrontPageViewModel()
         {
             GetTemperatureButton = new Command(async () => await RedirectToGetTemperaturePage());
             PostTemperatureButton = new Command(async () => await RedirectToPostTemperaturePage());
             GeoLocationButton = new Command(async () => await RedirectToGeoLocationPage());
+            CreateSensorButton = new Command(async () => await RedirectToCreateSensorPage());
         }
         async Task RedirectToGetTemperaturePage()
         {
@@ -31,6 +33,10 @@ namespace SensorDataCenter.ViewModel
         async Task RedirectToGeoLocationPage()
         {
             await Shell.Current.GoToAsync($"{nameof(GeolocationPage)}");
+        }
+        async Task RedirectToCreateSensorPage()
+        {
+            await Shell.Current.GoToAsync($"{nameof(CreateSensor)}");
         }
     }
 }

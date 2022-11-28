@@ -40,6 +40,7 @@ namespace SensorDataCenter.Services
             else
             {
                 await Application.Current.MainPage.DisplayAlert("Error", Convert.ToString(response.StatusCode), "Try again");
+                return "400";
             }
             return "201";
         }

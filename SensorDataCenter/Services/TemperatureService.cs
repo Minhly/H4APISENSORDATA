@@ -56,11 +56,9 @@ namespace SensorDataCenter.Services
             return Temperatures;
         }
 
-        public async Task<string> PostTemperature(string temperature, string humidity)
+        public async Task<string> PostTemperature(string temperature, string humidity, string tempSensorId)
         {
-            var sensor_id = "1";
-
-            var temperatureData = new PostTemperatureData() { sensor_id = sensor_id, Temperature = temperature, Humidity = humidity };
+            var temperatureData = new PostTemperatureData() { sensor_id = tempSensorId, Temperature = temperature, Humidity = humidity };
 
             var json = JsonSerializer.Serialize(temperatureData);
             var data = new StringContent(json, Encoding.UTF8, "application/json");

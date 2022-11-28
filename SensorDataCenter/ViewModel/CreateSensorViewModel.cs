@@ -64,9 +64,12 @@ namespace SensorDataCenter.ViewModel
             try
             {
                 var postCall = await createSensorService.CreateSensor(HostnameEntry, IpAddressEntry, GeoIdEntry);
-                HostnameEntry = "";
-                IpAddressEntry = "";
-                GeoIdEntry = "";
+                if(postCall != "400")
+                {
+                    HostnameEntry = "";
+                    IpAddressEntry = "";
+                    GeoIdEntry = "";
+                }
             }
             catch (Exception ex)
             {
